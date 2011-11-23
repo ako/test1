@@ -1,5 +1,6 @@
+require 'rubygems'
 require 'sinatra'
 
-get '/' do
+get '/greetings' do
   "Hello, world"
 end

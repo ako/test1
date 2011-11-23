@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyApp</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#callMessage").click(function(){console.log("call message");});
+      });
+    </script>
+  </head>
+  <body>
+    <h1>MyApp</h1>
+    <a href="#" id="callMessage">Call message</a>
+    <p id="messageResult">...</p>
+  </body>
+</html>
